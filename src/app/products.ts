@@ -8,22 +8,35 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    name: 'PlayStation 5',
+    price: 45000,
+    description: 'Ps5 is a gaming console brand developed and owned by Sony'
   },
   {
     id: 2,
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    name: 'Xbox Series X',
+    price: 40000,
+    description: 'A Xbox is a gaming console brand developed and owned by Microsoft'
   },
   {
     id: 3,
-    name: 'Phone Standard',
+    name: 'Nintendo Version 2',
     price: 299,
-    description: ''
-  }
+    description: 'A great console for playing games'
+  },
+  {
+    id: 4,
+    name: 'Ps5 Controller',
+    price: 45000,
+    description: 'Controller'
+  },
+  {
+    id: 5,
+    name: 'xbox controller',
+    price: 5000,
+    description: 'X box controller'
+  },
+
 ];
 
 
