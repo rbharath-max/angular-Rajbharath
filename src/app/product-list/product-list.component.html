@@ -6,9 +6,19 @@
 <div *ngFor="let p of products">
 <h4> Available Consoles and Controller:<br>Model {{p.id}}:<a [title]="p.name+'model'">{{p.name}}
 </a><br><h5 *ngIf="p.description">Description:{{p.description}}</h5></h4>
+<button type="button"(click)="cart()">Cart</button>
+<button type="button"(click)="share()">Share</button>
+
 
 
 </div>
+
+
+
+
+
+
+<button type="button"(click)="buy()">Buy</button>
 
 
 <!-- 

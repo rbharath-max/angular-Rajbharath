@@ -13,6 +13,15 @@ export class ProductListComponent {
   share() {
     window.alert('The product has been shared!');
   }
+
+  buy(){
+    window.alert('Redirecting you to the payment page')
+  }
+
+  cart(){
+    window.alert('adding things to cart')
+  }
+ 
 }
 
 
